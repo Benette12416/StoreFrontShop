@@ -23,7 +23,7 @@ namespace StoreFrontShop.Forms1
             form2.Dock = DockStyle.Fill;
             form2.TopLevel = false;
             MainForm.MainPanel.Controls.Clear();
-            MainForm.MainPanel.Controls.Add(forms2);
+            MainForm.MainPanel.Controls.Add(form2);
             form2.Show();
         }
     }
